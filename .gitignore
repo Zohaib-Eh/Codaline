@@ -1,0 +1,55 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg-info/
+dist/
+build/
+.eggs/
+.venv/
+venv/
+env/
+
+# Environment
+.env
+.env.*
+!.env.example
+
+# Database
+*.db
+*.sqlite
+*.sqlite3
+
+# Backend generated files
+backend/static/uploads/
+backend/static/objects/
+backend/static/backgrounds/
+backend/static/composites/
+backend/static/videos/
+backend/static/audio/
+backend/static/outputs/
+backend/static/downloads/
+backend/static/demo_objects/
+
+# SAM2 model checkpoints
+backend/checkpoints/
+
+# Node
+node_modules/
+frontend/.next/
+frontend/out/
+frontend/.turbo/
+.pnp
+.pnp.js
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+.idea/
+.vscode/
+*.swp
+*.swo

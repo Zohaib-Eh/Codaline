@@ -1,0 +1,13 @@
+anthropic
+fastapi
+uvicorn[standard]
+python-dotenv
+aiosqlite
+httpx
+pillow
+python-multipart
+torch
+torchvision
+sam2
+websockets
+runware
